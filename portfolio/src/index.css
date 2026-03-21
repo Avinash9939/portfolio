@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 🔥 FLIP CARD CSS ADD HERE */
+/* Perspective */
+
+body {
+  margin: 0;
+  background: black;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* 🔥 FLIP CARD CSS ADD HERE */
+/* Perspective */
+.perspective {
+  perspective: 1000px;
+}
+
+/* ✅ NEW ADD (tilt wrapper fix — kuch remove nahi kiya) */
+.tilt {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.2s ease;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  height: 360px;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease;
+  will-change: transform;
+}
+
+/* Flip */
+.perspective:hover .card {
+  transform: rotateY(180deg) scale(1.02);
+}
+
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 16px;
+  overflow: hidden;
+
+  border: 1px solid rgba(34, 197, 94, 0.2);
+  box-shadow: none;
+
+  transition: all 0.3s ease;
+  background: transparent;
+}
+
+/* Hover Glow */
+.perspective:hover .card-face {
+  border: 1px solid rgba(34, 197, 94, 0.9);
+  box-shadow:
+    0 0 10px rgba(34, 197, 94, 0.8),
+    0 0 20px rgba(34, 197, 94, 0.7),
+    0 0 40px rgba(34, 197, 94, 0.6),
+    0 0 80px rgba(34, 197, 94, 0.5);
+}
+
+/* Back */
+.card-back {
+  transform: rotateY(180deg);
+  padding: 20px;
+
+  background: rgba(10, 30, 20, 0.9) !important;
+  backdrop-filter: blur(12px);
+}
+
+/* Glass */
+.glass {
+  background: rgba(10, 30, 20, 0.5) !important;
+  backdrop-filter: blur(12px);
+  border-top: 1px solid rgba(34, 197, 94, 0.2);
+}
+
+/* ========================= */
+/* 🔥 NEW PREMIUM ADDITIONS */
+/* ========================= */
+
+/* ❌ REMOVED: moving glowing border (ring) */
+
+/* ✅ subtle zoom (fixed syntax) */
+.perspective:hover {
+  transform: scale(1.05);
+}
