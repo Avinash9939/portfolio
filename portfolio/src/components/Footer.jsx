@@ -21,7 +21,7 @@ export default function Footer() {
         </h2>
 
         <p className="text-gray-400 text-sm mt-1">
-          Software Engineer || Full stack developer
+          Data Analyst || C++ developer
         </p>
 
         <a

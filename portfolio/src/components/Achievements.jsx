@@ -121,10 +121,10 @@ export default function Achievements() {
                   Nov 2025 – Present
                 </p>
                 <h2 className="text-green-400 font-semibold text-lg">
-                  Full Stack Developer Intern
+                  Data Analyst Intern
                 </h2>
                 <p className="text-sm text-gray-400 mt-2">
-                  Developed secure dashboards and automation systems, improving operational efficiency.
+                 Worked on data-driven dashboards and automated reporting processes to improve efficiency and support better decision-making. 
                 </p>
               </div>
             </motion.div>

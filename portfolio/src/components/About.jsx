@@ -6,23 +6,23 @@ export default function About() {
   const cards = [
     {
       icon: <FaCode />,
-      title: "Clean Code",
-      text: "Writing readable, maintainable and scalable code."
+      title: "Data Analysis",
+      text: "Transforming raw data into actionable insights using analytical and problem-solving skills."
     },
     {
       icon: <FaBrain />,
-      title: "DSA Practice",
-      text: "Solved 100+ problems to improve logical thinking."
+      title: "Continuous Learning",
+      text: "Continuously exploring new tools, technologies, and techniques in data analytics and data science.."
     },
     {
       icon: <FaLaptopCode />,
-      title: "Web Development",
-      text: "Building responsive and modern web applications."
+      title: "Database Management",
+      text: "Skilled in SQL for querying, cleaning, and managing large datasets efficiently."
     },
     {
       icon: <FaBookOpen />,
-      title: "Continuous Learning",
-      text: "Always exploring new technologies and improving skills."
+      title: "Data Visualization",
+      text: "Building clear and impactful dashboards using Power BI and Excel to communicate insights."
     }
   ];
 
@@ -57,15 +57,11 @@ export default function About() {
           className="text-gray-300 space-y-6 leading-relaxed"
         >
           <p>
-            I'm Avinash — a passionate Full Stack Developer who enjoys building
-            modern web applications and solving real-world problems through
-            clean and efficient code.
+            I'm Avinash — an aspiring Data Analyst who enjoys working with data, uncovering insights, and solving real-world problems through analytical thinking and data-driven approaches.
           </p>
 
           <p>
-            Currently in my final year of Computer Science, I focus on developing
-            practical projects and improving my problem-solving skills through
-            consistent coding practice.
+            Currently in my final year of Computer Science, I focus on building data-driven projects and strengthening my skills in Python, SQL, Excel, and data analysis through continuous learning and practice.
           </p>
 
           <p>
@@ -74,8 +70,7 @@ export default function About() {
           </p>
 
           <p>
-            I'm always eager to learn new technologies and build efficient,
-            user-friendly applications.
+          I'm always eager to learn new tools and technologies and apply them to analyze data, uncover insights, and support data-driven decision-making.
           </p>
         </motion.div>
 

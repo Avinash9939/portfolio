@@ -27,20 +27,10 @@ const projects = [
     category: "Data Science",
     image: "https://images.unsplash.com/photo-1511376777868-611b54f68947?q=80&w=1000&auto=format&fit=crop",
     tech: ["Python", "Machine Learning"],
-    desc: "Song popularity prediction using ML techniques.",
+    desc: "Performed data analysis on Spotify dataset and built a machine learning model to predict song popularity based on audio features.",
     stats: "",
     github: "https://github.com/Avinash9939/SPOTIFY-DATA-ANALYSIS-AND-SONG-POPULARITY-PREDICTION",
-    live: "#"
-  },
-  {
-    title: "Task Management App",
-    category: "Web Apps",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
-    tech: ["React", "Firebase"],
-    desc: "Manage daily tasks with real-time sync.",
-    stats: "500+ users",
-    github: "#",
-    live: "#"
+    live: "https://github.com/Avinash9939/SPOTIFY-DATA-ANALYSIS-AND-SONG-POPULARITY-PREDICTION"
   },
   {
     title: "Animated Button UI",

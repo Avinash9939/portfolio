@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 export default function UniversitySection() {
   const canvasRef = useRef(null);
 
-  // PARTICLES (UNCHANGED)
+  // PARTICLES
   useEffect(() => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
@@ -77,7 +77,7 @@ export default function UniversitySection() {
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
 
-        {/* 🔥 HEADING ANIMATION (ALL 3 TOGETHER) */}
+        {/* HEADING */}
         <motion.div
           initial={{ opacity: 0, y: 80 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -98,7 +98,7 @@ export default function UniversitySection() {
           </p>
         </motion.div>
 
-        {/* 🔥 CARD ANIMATION */}
+        {/* CARD */}
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -134,9 +134,15 @@ export default function UniversitySection() {
               providing me with both academic excellence and practical experience in computer engineering.
             </p>
 
-            <button className="bg-green-500 px-6 py-2.5 rounded-lg hover:bg-green-600 transition text-base font-medium w-fit">
+            {/* ✅ UPDATED BUTTON */}
+            <a
+              href="https://www.lpu.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-green-500 px-6 py-2.5 rounded-lg hover:bg-green-600 transition text-base font-medium w-fit inline-block"
+            >
               Visit Website →
-            </button>
+            </a>
           </div>
 
         </motion.div>

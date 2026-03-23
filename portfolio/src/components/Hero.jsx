@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
-const roles = ["Full Stack Developer", "Software Engineer"];
+const roles = ["Data Analyst", "C++ Developer"];
 
 export default function Hero() {
   const [text, setText] = useState("");
@@ -83,8 +83,7 @@ export default function Hero() {
           </motion.h2>
 
           <motion.p variants={item} className="text-gray-400 mt-6 max-w-lg">
-            I build intelligent, real-time systems that solve complex problems
-            with clean code and scalable design.
+            Aspiring Data Analyst with expertise in Python, SQL, Excel, and data visualization, dedicated to extracting meaningful insights from complex datasets. Equipped with strong problem-solving skills and a solid foundation in C++, enabling a structured and analytical approach to real-world challenges.
           </motion.p>
 
           {/* Buttons */}
